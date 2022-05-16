@@ -206,9 +206,9 @@ function run(){
 		for(i=0;i<pisos.length;i++){
 			pisos[i].dibujar(contextoBuffer);
 		}
-		for(i=0;i<huesos.length;i++){
+		/*for(i=0;i<huesos.length;i++){
 			huesos[i].dibujar(contextoBuffer);
-		}
+		}*/
 		heroe.dibujar(contextoBuffer);
 		contextoBuffer.font = "50px sans-serif";
 		contextoBuffer.fillText("FIN DEL JUEGO", 200, 440);
